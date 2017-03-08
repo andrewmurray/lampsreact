@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
@@ -10,7 +10,7 @@ import PlanEdit from './components/PlanEdit';
 
 import './App.css';
 
-export default class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <MuiThemeProvider>
